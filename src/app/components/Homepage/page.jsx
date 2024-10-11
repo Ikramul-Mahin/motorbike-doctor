@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner from './Banner';
+import About from './About';
 
 const Homepage = () => {
 	return (
 		<div className='h-screen'>
-			<h1>this is home page</h1>
+			<Banner></Banner>
+			<About></About>
 		</div>
 	);
 };
