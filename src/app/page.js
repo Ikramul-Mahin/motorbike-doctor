@@ -1,13 +1,10 @@
 
-
+import Homepage from './components/Homepage/page.jsx'
 export default function Home() {
   return (
     <div className="">
-     <h1>this is homepage</h1>
-     <button className="btn btn-outline">Default</button>
-<button className="btn btn-outline btn-primary">Primary</button>
-<button className="btn btn-outline btn-secondary">Secondary</button>
-<button className="btn btn-outline btn-accent">Accent</button>
+
+    <Homepage></Homepage>
     </div>
   );
 }
